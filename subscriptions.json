@@ -1,0 +1,1 @@
+{"_id":{"$oid":"5c429a931c9d4400005b482f"},"subscriptionName":"Monthly Promo 2019","subscriptionType":1,"customerId":{"$oid":"5c429b0a1c9d4400005b4830"},"startDate":{"$date":"2019-01-18T06:00:00.000Z"},"endDate":{"$date":"2020-02-24T06:00:00.000Z"},"surveyCount":1,"maxSurveys":1,"autoRenew":1}

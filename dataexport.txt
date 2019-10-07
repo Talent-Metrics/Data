@@ -1,0 +1,8 @@
+mongoexport --uri="mongodb+srv://db_admin:wimwej-syjfuq-9Hokna@cluster0-qct37.azure.mongodb.net/talent-metrics" --collection=customers --out=customers.json --forceTableScan
+mongoexport --uri="mongodb+srv://db_admin:wimwej-syjfuq-9Hokna@cluster0-qct37.azure.mongodb.net/talent-metrics" --collection=organizations --out=organizations.json --forceTableScan
+mongoexport --uri="mongodb+srv://db_admin:wimwej-syjfuq-9Hokna@cluster0-qct37.azure.mongodb.net/talent-metrics" --collection=subscriptions --out=subscriptions.json --forceTableScan
+mongoexport --uri="mongodb+srv://db_admin:wimwej-syjfuq-9Hokna@cluster0-qct37.azure.mongodb.net/talent-metrics" --collection=survey_subjects --out=survey_subjects.json --forceTableScan
+mongoexport --uri="mongodb+srv://db_admin:wimwej-syjfuq-9Hokna@cluster0-qct37.azure.mongodb.net/talent-metrics" --collection=surveys --out=surveys.json --forceTableScan
+mongoexport --uri="mongodb+srv://db_admin:wimwej-syjfuq-9Hokna@cluster0-qct37.azure.mongodb.net/talent-metrics" --collection=users --out=users.json --forceTableScan
+mongoexport --uri="mongodb+srv://db_admin:wimwej-syjfuq-9Hokna@cluster0-qct37.azure.mongodb.net/talent-metrics" --collection=word_banks --out=word_banks.json --forceTableScan
+mongoexport --uri="mongodb+srv://db_admin:wimwej-syjfuq-9Hokna@cluster0-qct37.azure.mongodb.net/talent-metrics" --collection=words --out=words.json --forceTableScan    

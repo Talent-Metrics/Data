@@ -1,0 +1,1 @@
+{"_id":{"$oid":"5c4299e91c9d4400005b482d"},"name":"innovation","definition":"definition of innovation","value":5,"default":true,"disabled":false,"customerId":{"$oid":"5c429b0a1c9d4400005b4830"},"wordBankId":{"$oid":"5c4298fd1c9d4400005b482c"}}
