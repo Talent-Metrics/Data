@@ -1,3 +1,4 @@
+//localhost
 mongoimport --host=localhost --port=27017 --db=talent-metrics --collection=customers --file=customers.json
 mongoimport --host=localhost --port=27017 --db=talent-metrics --collection=organizations --file=organizations.json
 mongoimport --host=localhost --port=27017 --db=talent-metrics --collection=subscriptions --file=subscriptions.json
@@ -7,6 +8,7 @@ mongoimport --host=localhost --port=27017 --db=talent-metrics --collection=users
 mongoimport --host=localhost --port=27017 --db=talent-metrics --collection=word_banks --file=word_banks.json
 mongoimport --host=localhost --port=27017 --db=talent-metrics --collection=words --file=words.json
 
+//production
 mongoimport --uri="mongodb+srv://db_admin:wimwej-syjfuq-9Hokna@talentmetrics-wf1dm.mongodb.net/talent-metrics" --collection=customers --file=customers.json
 mongoimport --uri="mongodb+srv://db_admin:wimwej-syjfuq-9Hokna@talentmetrics-wf1dm.mongodb.net/talent-metrics" --collection=organizations --file=organizations.json
 mongoimport --uri="mongodb+srv://db_admin:wimwej-syjfuq-9Hokna@talentmetrics-wf1dm.mongodb.net/talent-metrics" --collection=subscriptions --file=subscriptions.json
@@ -16,6 +18,7 @@ mongoimport --uri="mongodb+srv://db_admin:wimwej-syjfuq-9Hokna@talentmetrics-wf1
 mongoimport --uri="mongodb+srv://db_admin:wimwej-syjfuq-9Hokna@talentmetrics-wf1dm.mongodb.net/talent-metrics" --collection=word_banks --file=word_banks.json
 mongoimport --uri="mongodb+srv://db_admin:wimwej-syjfuq-9Hokna@talentmetrics-wf1dm.mongodb.net/talent-metrics" --collection=words --file=words.json 
 
+//test
 mongoimport --uri="mongodb+srv://db_admin:wimwej-syjfuq-9Hokna@talentmetrics-jsjkt.mongodb.net/talent-metrics" --collection=customers --file=customers.json
 mongoimport --uri="mongodb+srv://db_admin:wimwej-syjfuq-9Hokna@talentmetrics-jsjkt.mongodb.net/talent-metrics" --collection=organizations --file=organizations.json
 mongoimport --uri="mongodb+srv://db_admin:wimwej-syjfuq-9Hokna@talentmetrics-jsjkt.mongodb.net/talent-metrics" --collection=subscriptions --file=subscriptions.json
